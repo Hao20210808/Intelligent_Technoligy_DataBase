@@ -1,0 +1,122 @@
+body {
+  font: 10pt "微軟正黑體";
+  padding-top: 3em;
+  padding-left: 20em;
+  padding-right: 20em;
+  align-items: center;
+  font-family: 'Lukiest Guy', cursive;
+}
+h1 {
+  background-image: url("../images/pic_03.jpg");
+  background-position: top;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+a:hover{
+  color:#f9ffc1;
+}
+div.menu{
+  margin-top: 60px;
+}
+div.menu nav{
+  width: 100%;
+  margin:0 auto;
+}
+div.menu nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #555;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  background-color: #6495ED;
+}
+div.menu nav ul li{
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid #bbb;
+}
+div.menu nav ul li:last-child {
+  border-right: none;
+}
+div.menu nav ul li a{
+  display: block;
+  padding: 5px 10px;
+  font-size:16pt;
+  text-decoration: none;
+}
+div.menu nav ul li a:hover {
+  background-color: #4682B4;
+}
+.active {
+  background-color:#111;
+}
+div.main{
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background-color: rgba(0,0,0,0,6);
+  min-height:300px;
+  padding:20px;
+}
+div.main h1.welcome{
+  font-size: 36pt;
+  text-align: center;
+}
+div.main div.intro{
+  text-align: center;
+}
+div.main div.intro p{
+  font-size: 16pt;
+}
+div.main div.login_post{
+  text-align: center;
+  margin-bottom: 20px;
+}
+label{
+  display: inline-block;
+  vertical-align: top;
+}
+input, textarea{
+  width: 80%;
+  color: #333;
+}
+textarea{
+  height: 300px;
+}
+form p{
+  text-align: center;
+}
+button{
+  border: #ffe800 solid 1px;
+  background-color: #000;
+  color: #fff;
+  padding: 5px, 30px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+}
+button:active{
+  background-color: #333;
+  border: #fff8c3 solid 1px;
+}
+li.actice{
+  background-color: #000;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
