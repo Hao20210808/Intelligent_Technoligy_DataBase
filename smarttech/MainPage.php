@@ -9,14 +9,27 @@
       $title = "首頁";
       break;
     case 'WH_Search':
-      $title = "搜索資料庫";
+      $title = "搜索資料庫-表單";
+      break;
+    case 'WH':
+      $title = "搜索資料庫-陳列";
       break;
     case 'login':
       $title = "更新數據";
       break;
+    case 'backend':
+      $title = "管理室";
+      break;
+    case 'register':
+      $title = "管理員註冊";
+      break;
+    case 'reviewData':
+      $title = "管理員註冊(確認)";
+      break;
     case 'contact':
       $title = "聯絡我們";
       break;
+    default:
       $title = "Opps! 404 (輸入錯誤or連線失敗)";
       break;
   }
@@ -44,18 +57,18 @@
   <body>
     <div class="container">
       <br>
-      <br>
       <h1><?php echo $articleTitle; ?></h1>
       <p><?php echo $articleContent; ?></p>
-      <hr>
+      <br>
     </div>
 
-    <div class="menu">
+    <div class="topnav">
       <nav>
         <ul>
-          <li <?php if($page == "MainPage") echo 'class="active"'; ?>><a href="?page=MainPage">首頁</a></li>
+          <li <?php if($page == "MainPage") echo 'class="active"'; ?>><a href="?page=MainPage">回首頁</a></li>
           <li <?php if($page == "WH_Search") echo 'class="active"'; ?>><a href="?page=WH_Search">搜索資料庫</a></li>
           <li <?php if($page == "login") echo 'class="active"'; ?>><a href="?page=login">更新數據</a></li>
+          <li <?php if($page == "register") echo 'class="active"'; ?>><a href="?page=register">管理員註冊</a></li>
           <li <?php if($page == "contact") echo 'class="active"'; ?>><a href="?page=contact">聯絡我們</a></li>
         </ul>
       </nav>
@@ -69,20 +82,23 @@
         case 'WH_Search':
           include("WareHouse/WH_Search.php");
           break;
+        case 'WH':
+          include("WareHouse/WH.php");
+          break;
         case 'login':
           include("User/login.php");
-          break;
-        case 'contact':
-          include("contact.php");
-          break;
-        case 'checkUser':
-          include("User/checkUser.php");
           break;
         case 'backend':
           include("User/backend.php");
           break;
-        case 'logout':
-          include("User/logout.php");
+        case 'contact':
+          include("contact.php");
+          break;
+        case 'register':
+          include("User/register.php");
+          break;
+        case 'reviewData':
+          include("User/reviewData.php");
           break;
         default:
           $title = "Opps! 404 (輸入錯誤or連線失敗)";

@@ -1,21 +1,28 @@
 body {
-  font: 10pt "微軟正黑體";
-  font-family: 'Lukiest Guy', cursive;
+  font: 11pt "微軟正黑體";
+  font-family: "Lucida Sans", sans-serif;
   align-items: center;
+  min-height: 100px;
+  position: relative;
+  margin: 0;
 }
+
 a {
   color: #fff;
   text-decoration: none;
 }
 a:hover{
-  color:#f9ffc1;
+  background-color: #ddd;
+  color: black;
 }
 
 div.container{
-  background-image: linear-gradient(white, skyblue);
+  background: white;
   background-position: top;
   background-repeat: no-repeat;
-  width: 100%;
+  width: 1000px;
+  margin: 0 auto;
+
 }
 div.container h1 {
   background-image: url("../images/pic_03.jpg");
@@ -30,53 +37,52 @@ div.container h1 {
 div.container p {
   text-align: center;
 }
-div.menu{
-  margin-top: auto;
+
+div.topnav{
+
 }
-div.menu nav{
-  width: 100%;
-  overflow: auto;
-  height: 30px;
+div.topnav nav{
+
 }
-div.menu nav ul{
+div.topnav nav ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  border: 3px solid #555;
-  overflow: auto;
-  position: fixed;
-  top: 0px;
-  right: 0%;
-  width: 100%;
-  background-color: #6495ED;
+  overflow: hidden;
+  background-color: #333;
 }
-div.menu nav ul li{
-  display: inline-block;
-  text-align: center;
-  border-right: 1px solid #bbb;
+div.topnav nav ul li{
+  display: inline;
+  float: left;
 }
-div.menu nav ul li:last-child {
-  border-right: none;
+div.topnav nav ul li:last-child {
+
 }
-div.menu nav ul li a{
+div.topnav nav ul li a{
   display: block;
-  padding: 5px 20px;
-  font-size:16pt;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
-div.menu nav ul li a:hover {
-  background-color: #4682B4;
+div.topnav nav ul li a:hover{
+  background-color: #111;
+}
+div.topnav nav ul li a:hover:not(.active) {
+  background-color: #111;
 }
 .active {
-  background-color:#111;
+  background-color: #04AA6D;
 }
+
 div.main{
   width: 800px;
   margin: 0 auto;
-  margin-top: 10px;
-  min-height:300px;
-  padding:20px;
-  border-style: dashed;
+  margin-top: 20px;
+  min-height:400px;
+  padding: 20px;
+  border: 2px solid #111;
+  background-color: white;
 }
 div.main h2.welcome{
   font-size: 30pt;
@@ -88,10 +94,11 @@ div.main div.intro{
 div.main div.intro p{
   font-size: 18pt;
 }
-div.main div.login{
+div.main div.login div.register{
   text-align: center;
   margin-bottom: 20px;
 }
+
 label{
   display: inline-block;
   vertical-align: top;
@@ -107,13 +114,14 @@ form p{
   text-align: center;
 }
 button{
-  border: #ffe800 solid 1px;
-  background-color: #000;
+  border: #ccc solid 4px;
+  background-color: #111;
   color: #fff;
-  padding: 5px, 30px;
+  padding: 15px, 30px;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
-  border-radius: 6px;
+  border-radius: 8px;
+  font-size: 16px;
 }
 button:active{
   background-color: #333;
@@ -126,8 +134,10 @@ footer{
   position: fixed;
   left: 0;
   bottom: 0;
+  background-color: #0099cc;
+  color: #ffffff;
   width: 100%;
-  background-color: red;
-  color: white;
   text-align: center;
+  font-size: 12px;
+  height: 6%;
 }

@@ -26,17 +26,17 @@
     <br>
     <div>
       <label for="stock_number">生技公司股票代碼:</label>
-      <input type="text" name="name" value="" autofocus>
+      <input type="text" name="name" value="" autofocus style="width:200px;"/>
     </div>
     <br>
     <div>
       <label for="stock_number">生技公司中文名稱:</label>
-      <input type="text" name="name" value="" autofocus>
+      <input type="text" name="name" value="" autofocus style="width:200px;"/>
     </div>
     <br>
     <div>
       <label for="stock_number">合作機構名稱:</label>
-      <input type="text" name="name" value="" autofocus>
+      <input type="text" name="name" value="" autofocus style="width:200px;"/>
     </div>
     <br>
     <div>
@@ -86,7 +86,7 @@
           <option value="3"> < </option>
           <option value="4"> <= </option>
       </select>
-      <input type="text" name="契約起始" value="" placeholder="輸入年份(西元)" autofocus>
+      <input type="text" name="契約起始" value="" placeholder="輸入年份(西元)" autofocus style="width:100px;" />
     </div>
     <br>
     <div>
@@ -98,7 +98,7 @@
         <option value="3"> < </option>
         <option value="4"> <= </option>
       </select>
-      <input type="text" name="契約終止" value="" placeholder="輸入年份(西元)" autofocus>
+      <input type="text" name="契約終止" value="" placeholder="輸入年份(西元)" autofocus style="width:100px;" />
     </div>
     <br>
     <div>
