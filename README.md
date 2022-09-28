@@ -7,3 +7,7 @@ http://140.113.117.117:88/biotech/index.php?accesscheck=%2Fbiotech%2Fcontract.ph
 
 
 ![This is an image](/smarttech/版面截圖_new_Prototype/Interface.png)
+![This is an image](/smarttech/版面截圖_new_Prototype/WH_search.png)
+![This is an image](/smarttech/版面截圖_new_Prototype/contact.png)
+![This is an image](/smarttech/版面截圖_new_Prototype/login.png)
+![This is an image](/smarttech/版面截圖_new_Prototype/register.png)
