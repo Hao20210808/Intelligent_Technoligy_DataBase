@@ -28,7 +28,6 @@
       <legend>個人資訊</legend><br>
       姓名: <input type="text" name="real_name" style="width:200px;"/><br><br>
       電話: <input type="text" name="phone" value="" style="width:200px;"/><br><br>
-      住址: <input type="text" name="address" value="" style="width:200px;"/><br><br>
       信箱: <input type="email" name="email" value="" style="width:200px;"/><br><br>
       <p style="color: red">此欄為非必須填寫。若帳戶發生問題、忘記密碼，可藉由此欄追蹤。</p>
     </fieldset>
