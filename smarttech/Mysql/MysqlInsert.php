@@ -1,7 +1,5 @@
 <?php
-	//載入 db.php 檔案，讓我們可以透過它連接資料庫
-	require_once 'db.php';
-
+	require_once 'MysqlConnect.php';
 ?>
 <!DOCTYPE html>
 <html lang="zh-TW">
