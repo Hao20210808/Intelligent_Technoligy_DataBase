@@ -14,6 +14,6 @@
   } else {
     //if fail，connected failed, return error
     //mysql_connect_error();
-    echo 'connected fail :<br/>' . mysqli_connect_error();
+    echo 'connect failed :<br/>' . mysqli_connect_error();
   }
 ?>
