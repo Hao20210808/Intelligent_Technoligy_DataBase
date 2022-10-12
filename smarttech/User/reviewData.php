@@ -26,7 +26,6 @@
       <legend>個人資訊</legend><br>
         姓名: <?php echo $_POST['real_name']; ?><br><br>
         電話: <?php echo $_POST['phone']; ?><br><br>
-        住址: <?php echo $_POST['address']; ?><br><br>
         信箱: <?php echo $_POST['email']; ?><br><br>
     </fieldset>
     <p><button><a href="../MainPage.php">返回首頁</a></button></p>
