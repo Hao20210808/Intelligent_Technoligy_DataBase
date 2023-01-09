@@ -4,6 +4,7 @@
 
 ### (2023/1/09)
 **Version 2**
+重新思索網站的用途，或許沒有必要添加太多瑣碎的東西。
 
 ![This is an image](/smarttech_v2/images/版面截圖20230109.jpg)
 
