@@ -2,8 +2,12 @@
 
 [**本系統由科技部計畫補助 <-- Click**](http://140.113.117.117:88/biotech/index.php?accesscheck=%2Fbiotech%2Fcontract.php)
 
+### (2023/1/09)
+**Version 2**
 
-(2022/9/22)
+![This is an image](/smarttech_v2/images/版面截圖20230109.jpg)
+
+### (2022/9/22)
 **Prototype**
 
 ![This is an image](/smarttech/版面截圖_new_Prototype/Interface.png)
