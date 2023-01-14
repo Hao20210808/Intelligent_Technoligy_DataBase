@@ -2,7 +2,7 @@
 
 [**本系統由科技部計畫補助 <-- Click**](http://140.113.117.117:88/biotech/index.php?accesscheck=%2Fbiotech%2Fcontract.php)
 
-### (2023/1/09)
+### (2023/10/24)
 **Version 2**
 重新思索網站的用途，或許沒有必要添加太多瑣碎的東西。
 
