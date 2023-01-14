@@ -6,7 +6,8 @@
 **Version 2**
 重新思索網站的用途，或許沒有必要添加太多瑣碎的東西。
 
-![This is an image](/smarttech_v2/images/版面截圖20230109.jpg)
+![This is an image](v2_01.png)
+![This is an image](v2_02.png)
 
 ### (2022/9/22)
 **Prototype**
