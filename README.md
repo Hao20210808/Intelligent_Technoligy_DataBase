@@ -8,9 +8,9 @@
 重新思索網站的用途，或許沒有必要添加太多瑣碎的東西。
 
 ##### 首頁
-![This is an image](Screenshot01.png)
-![This is an image](Screenshot02.png)
-![This is an image](Screenshot03.png)
+![This is an image](Screenshot1.png)
+![This is an image](Screenshot2.png)
+![This is an image](Screenshot3.png)
 
 ### (2022/9/22)
 **Prototype**
