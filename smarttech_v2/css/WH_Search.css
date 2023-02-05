@@ -1,0 +1,118 @@
+
+<style media="screen">
+  .Questionnaire {
+    display: block;
+  }
+  fieldset {
+    border-radius: 16px;
+    background-color: #eeeeee;
+    font-size: 20px;
+    max-width: 900px;
+    padding: 24px;
+  }
+  legend {
+    background-color: gray;
+    border-radius: 16px;
+    color: white;
+    padding: 8px;
+  }
+  h3 {text-align: center;}
+  ul{list-style-type: none;}
+  .WH_Search input[type=text] {
+    height: 32px;
+    font-size: 16px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 1.0s ease-in-out;
+    padding-left: 8px;
+  }
+  .WH_Search input:focus::placeholder {color: transparent;}
+  .WH_Search input[type=text]:hover {
+    border-color: #f2de6b;
+    background-color: #fff2ab;
+  }
+
+  select {
+    font-size: 16px;
+    height: 30px;
+  }
+
+  button {
+    font-size: 16px;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 36px;
+    height: 20px;
+  }
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .1s;
+    transition: .1s;
+    border-radius: 20px;
+  }
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .1s;
+    transition: .1s;
+    border-radius: 50%;
+  }
+  input:checked + .slider {background-color: #2196F3;}
+  input:focus + .slider {box-shadow: 0 0 1px #2196F3;}
+  input:checked + .slider:before {
+    -webkit-transform: translateX(16px);
+    -ms-transform: translateX(16px);
+    transform: translateX(16px);
+  }
+  @media screen and (max-width: 950px) {
+    fieldset {
+      border-radius: 16px;
+      background-color: #eeeeee;
+      font-size: 16px;
+      max-width: 750px;
+      padding: 12px;
+    }
+ }
+ @media screen and (max-width: 700px) {
+   fieldset {
+     border-radius: 16px;
+     background-color: #eeeeee;
+     font-size: 16px;
+     max-width: 500px;
+     padding: 12px;
+   }
+}
+@media screen and (max-width: 550px) {
+  fieldset {
+    border-radius: 16px;
+    background-color: #eeeeee;
+    font-size: 16px;
+    max-width: 500px;
+    padding: 12px;
+  }
+}
+</style>
