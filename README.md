@@ -7,6 +7,9 @@
 **Version 2**
 重新思索網站的用途，或許沒有必要添加太多瑣碎的東西。
 
+##### icon
+![icon](/smarttech_v2/images/icon.png)
+
 ##### 首頁
 ![This is an image](Screenshot1.png)
 ![This is an image](Screenshot2.png)
