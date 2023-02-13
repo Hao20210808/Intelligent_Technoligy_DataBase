@@ -11,9 +11,9 @@
 ![icon](/smarttech_v2/images/icon.png)
 
 ##### 首頁
-![This is an image](Screenshot1.png)
-![This is an image](Screenshot2.png)
-![This is an image](Screenshot3.png)
+![This is an image](Screenshot01.png)
+![This is an image](Screenshot02.png)
+![This is an image](Screenshot03.png)
 
 ### (2022/9/22)
 **Prototype**
