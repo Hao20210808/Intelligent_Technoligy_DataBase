@@ -16,21 +16,3 @@
 ![This is an image](Screenshot_3.png)
 ##### 管理頁面:
 ![This is an image](Screenshot_4.png)
-
-### (2022/9/22)
-**Prototype**
-
-##### 首頁
-![This is an image](/smarttech/版面截圖_new_Prototype/Interface.png)
-
-##### 搜尋
-![This is an image](/smarttech/版面截圖_new_Prototype/WH_search.png)
-
-##### 聯繫
-![This is an image](/smarttech/版面截圖_new_Prototype/contact.png)
-
-##### 登入
-![This is an image](/smarttech/版面截圖_new_Prototype/login.png)
-
-##### 創建
-![This is an image](/smarttech/版面截圖_new_Prototype/register.png)
