@@ -1,0 +1,34 @@
+<style media="screen">
+  .header {overflow: hidden; background-color: #F5F5F5; background-position: center; background-repeat: no-repeat; background-size: auto; position: relative; top: 0;}
+  .header img {display: block; height: auto; max-width: 100%;}
+
+  .topnav {padding: 0 auto; max-width: 900px; display: block; overflow: hidden; background: linear-gradient(#828282, #616161); border-bottom: 6px groove;}
+  .topnav a {float: left; display: block; color: white; text-align: center; padding: 6px; text-decoration: none; font-size: 14px; border-radius: 4px;}
+  #navigation a {display: inline;}
+  .topnav a:hover {background: linear-gradient(#616161, #454545);}
+
+  .topnav .SB {float: right; padding: 6px;}
+  .topnav .SB input[type=text] {text-align: center; font-size: 11px; border: 2px solid gray; border-radius: 6px; width: 200px; padding: 2px;}
+  .topnav .SB input[type=text]:hover {border-color: black;}
+  .topnav .SB input:focus::placeholder {color: transparent;}
+
+  .footer {overflow: hidden; background: linear-gradient(#828282, #616161); border-top: 6px ridge; bottom: 0; padding: 0 auto; width: 900px;}
+  .footer p{float: left; color: white; padding: 10px 0px 10px 50px; font-size: 14px;}
+
+  .login-container {float: right; padding: 10px 50px 10px 0px; text-align: right;}
+  .login-container input[type=text] {float: left; padding: 4px; font-size: 14px; width: 180px; height: 30px; border: 2px inset; text-align: center;}
+  .login-container button {float: right; padding: 4px; background-color: black; color: white; font-size: 14px; width: 90px; height: 30px; cursor: pointer;}
+  .login-container button:hover {background-color: #545454;}
+  @media screen and (max-width: 1024px) {
+    .topnav {width: 100%;}
+    .topnav a {font-size: 12px; padding: 4px;}
+    .topnav .SB{padding: 5px 7px;}
+    .topnav .SB input[type=text]{font-size: 12px; padding: 3px 4px;}
+
+    .footer {width: 100%;}
+    .footer p {text-align: center; width: 100%; font-size: 12px; float: left; padding: 10px 50px;}
+    .footer .login-container {width: 100%; padding: 10px 100px; float: right;}
+    .login-container input[type=text] {text-align: center; width: 50%; font-size: 12px; height: 30px;}
+    .login-container button {width: 50%; font-size: 12px; height: 30px;}
+ }
+</style>
