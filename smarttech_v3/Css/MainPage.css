@@ -1,0 +1,33 @@
+<style media="screen">
+  .header {overflow: hidden; background-position: left; background-repeat: no-repeat; background-size: auto; position: relative; top: 0;}
+  .header img {float: left; display: block; max-height: 10%; max-width: 100%;}
+
+  .topnav {padding: 0 auto; width: 100%; display: block; overflow: hidden; border-bottom: 3px groove;}
+  .topnav a {float: left; display: block; color: black; text-align: center; padding: 8px 12px; text-decoration: none; font-size: 14px; border-radius: 8px;}
+  #navigation a {display: inline;}
+  .topnav a:hover {background-color: #e6e6e6;}
+
+  .topnav .SB {float: right; padding: 6px;}
+  .topnav .SB input[type=text] {text-align: center; font-size: 14px; border: 2px solid gray; border-radius: 4px; width: 300px; padding: 4px;}
+  .topnav .SB input[type=text]:hover {border-color: black;}
+  .topnav .SB input:focus::placeholder {color: transparent;}
+
+  .footer {overflow: hidden; background: #00baff; border-top: 3px ridge; bottom: 0; padding: 0 auto; width: 100%;}
+  .footer p{float: left; color: white; padding: 10px 0px 10px 50px; font-size: 12px;}
+
+  .login-container {float: right; padding: 10px 50px 10px 0px; text-align: right;}
+  .login-container input[type=text] {float: left; padding: 4px; font-size: 12px; width: 180px; height: 28px; border: 2px inset; text-align: center;}
+  .login-container button {float: right; padding: 4px; background-color: black; color: white; font-size: 12px; width: 90px; height: 28px; cursor: pointer;}
+  .login-container button:hover {background-color: #545454;}
+  @media screen and (max-width: 1024px) {
+    .topnav a {font-size: 14px; padding: 8px 12px;}
+    .topnav .SB{padding: 5px 7px;}
+    .topnav .SB input[type=text]{font-size: 14px; padding: 4px 6px; width: 160px;}
+
+    .footer {width: 100%;}
+    .footer p {text-align: center; width: 100%; font-size: 11px; float: left; padding: 10px 50px;}
+    .footer .login-container {width: 100%; padding: 10px 100px; float: right;}
+    .login-container input[type=text] {text-align: center; width: 50%; font-size: 14px; height: 30px;}
+    .login-container button {width: 50%; font-size: 12px; height: 30px;}
+ }
+</style>
