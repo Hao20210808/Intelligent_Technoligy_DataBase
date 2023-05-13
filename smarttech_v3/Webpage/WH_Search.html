@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en" ="ltr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="fSelect.css">
+  <link rel="stylesheet" href="../Css/WH_Search.css">
+</head>
+<div class="WH_Search"><br><br>
+  <form class="Questionnaire" action = "WH_Search.html" method="postcc">
+    <div class="company_attributes">
+      <fieldset>
+        <legend for="company_attributes">公司欄位</legend>
+        <fieldset>
+          <div>
+            <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+            <label class="form-check-label" for="Radio01">選擇產業:
+              <select id="industry" name="industry">
+                <option value="0">生技</option>
+                <option value="1">物聯網(IoT)</option>
+                <option value="2">人工智慧物聯網(AIoT)</option>
+                <option value="3">智慧製造</option>
+                <option value="4">綠能</option>
+              </select>
+            </label>
+          </div>
+          <br>
+
+          <div>
+            <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+            <label class="form-check-label" for="Radio02">
+              <label for="stock_number">生技公司股票代碼:</label>
+              <input type="text" name="name" value="" autofocus/>
+            </label>
+          </div>
+          <br>
+
+          <div>
+            <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+            <label class="form-check-label" for="Radio03">
+              <label for="company_name_chinese">生技公司中文名稱:</label>
+              <input type="text" name="name" value="" autofocus/>
+            </label>
+          </div>
+          <br>
+
+          <div>
+            <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+            <label class="form-check-label" for="Radio04">
+              <label for="Partner_institution_name">合作機構名稱:</label>
+              <input type="text" name="name" value="" autofocus/>
+            </label>
+          </div>
+          <br>
+          <p>※若需要欄位過濾資料，請記得切換左側的開關為有效。</p>
+        </fieldset>
+      </fieldset>
+    </div>
+    <br>
+
+    <div class="cooperation_contract">
+      <fieldset>
+        <legend for="cooperation_contract">合作契約</legend>
+        <div>
+          <div>
+            <h3>合作對象類別</h3>
+            <fieldset>
+              <div>
+                <ul>
+                  <li color="border: blue;"><input type="checkbox" name="all" id="partner" onclick="check_all(this,'c')" checked/><label for="partner"><font color=blue>全選/全不選</font></label><hr>
+                    <ul>
+                      <li><input type="checkbox" name="c" id="partner-1" checked><label for="partner-1">國外公司</label></li>
+                      <li><input type="checkbox" name="c" id="partner-2" checked><label for="partner-2">國內公司</label></li>
+                      <li><input type="checkbox" name="c" id="partner-3" checked><label for="partner-3">大學</label></li>
+                      <li><input type="checkbox" name="c" id="partner-4" checked><label for="partner-4">財團法人</label></li>
+                      <li><input type="checkbox" name="c" id="partner-5" checked><label for="partner-5">政府</label></li>
+                      <li><input type="checkbox" name="c" id="partner-6" checked><label for="partner-6">銀行</label></li>
+                      <li><input type="checkbox" name="c" id="partner-7" checked><label for="partner-7">醫院</label></li>
+                      <li><input type="checkbox" name="c" id="partner-8" checked><label for="partner-8">個人</label></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </fieldset>
+          </div>
+          <br>
+
+          <div>
+            <h3>合作契約類別</h3>
+            <fieldset>
+              <div>
+                <ul>
+                  <li><input type="checkbox" name="R&D" id="R&D" onclick="check_all(this,'d')" checked/><label for="R&D"><font color=blue>R & D 研發 (全選/全不選)</font></label><hr>
+                  <ul>
+                    <li><input type="checkbox" name="d" id="R&D-1" checked><label for="R&D-1">合作研究</label></li>
+                    <li><input type="checkbox" name="d" id="R&D-2" checked><label for="R&D-2">合作開發</label></li>
+                    <li><input type="checkbox" name="d" id="R&D-3" checked><label for="R&D-3">委託製造</label></li>
+                    <li><input type="checkbox" name="d" id="R&D-4" checked><label for="R&D-4">委託研究</label></li>
+                    <li><input type="checkbox" name="d" id="R&D-5" checked><label for="R&D-5">委託開發</label></li>
+                  </ul>
+                  </li>
+                  <br>
+                  <li><input type="checkbox" name="Non-R&D" id="Non-R&D" onclick="check_all(this,'e')" checked/><label for="Non-R&D"><font color=blue>非研發 (全選/全不選)</font></label><hr>
+                  <ul>
+                    <li><input type="checkbox" name="e" id="Non-R&D-1" checked><label for="Non-R&D-1">租賃</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-2" checked><label for="Non-R&D-2">行銷</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-3" checked><label for="Non-R&D-3">財務</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-4" checked><label for="Non-R&D-4">補助</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-5" checked><label for="Non-R&D-5">建教合作</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-6" checked><label for="Non-R&D-6">產學合作</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-7" checked><label for="Non-R&D-7">策略聯盟</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-8" checked><label for="Non-R&D-8">採購</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-9" checked><label for="Non-R&D-9">授權</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-10" checked><label for="Non-R&D-10">移轉</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-11" checked><label for="Non-R&D-11">計畫</label></li>
+                    <li><input type="checkbox" name="e" id="Non-R&D-12" checked><label for="Non-R&D-12">其他</label></li>
+                  </ul>
+                  </li>
+                </ul>
+              </div>
+            </fieldset>
+            <br>
+
+            <fieldset>
+              <div>
+                <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                <label class="form-check-label" for="Radio07">
+                  <label for="合作契約起始年份的英文">合作契約起始年份:</label>
+                  <select name="契約起始">
+                      <option value="0"> >= </option>
+                      <option value="1"> > </option>
+                      <option value="2"> = </option>
+                      <option value="3"> < </option>
+                      <option value="4"> <= </option>
+                  </select>
+                  <input type="text" name="契約起始" value="" placeholder="輸入年份(西元)" autofocus style="width: 100px; font-size: 11px;"/>
+                </label>
+              </div><br>
+
+              <div>
+                <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                <label class="form-check-label" for="Radio08">
+                  <label for="合作契約終止年份的英文">合作契約終止年份:</label>
+                  <select name="契約終止">
+                    <option value="0"> >= </option>
+                    <option value="1"> > </option>
+                    <option value="2"> = </option>
+                    <option value="3"> < </option>
+                    <option value="4"> <= </option>
+                  </select>
+                  <input type="text" name="契約終止" value="" placeholder="輸入年份(西元)" autofocus style="width: 100px; font-size: 11px; content"/>
+                </label>
+              </div>
+              <br>
+
+              <div>
+                <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                <label class="form-check-label" for="Radio08">
+                  <label for="合作契約類別的英文">合作契約類別:</label>
+                  <select id="cars" name="cars">
+                    <option value="不顯示">不顯示重複</option>
+                    <option value="顯示">顯示各年重覆的(不建議)</option>
+                  </select>
+                </label>
+              </div>
+              <br>
+
+              <div>
+                <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                <label class="form-check-label" for="Radio09">
+                  <label for="產生資料類型設定的英文">產生資料類型設定:</label>
+                  <select id="cars" name="cars">
+                    <option value="不顯示">不顯示保密之協定</option>
+                    <option value="顯示">顯示保密之協定</option>
+                  </select>
+                </label>
+              </div><br>
+              <p>※若需要欄位過濾資料，請記得切換左側的開關為有效。</p>
+            </fieldset>
+          </div>
+        </div>
+      </fieldset>
+    </div>
+    <br>
+
+    <div style="text-align: center;">
+      <button type="submit" name="submit" value="Submit">建 立 列 表</button>
+    </div>
+    <br>
+  </form>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script>
+  $('input[type="checkbox"]').change(function(e) {
+    var checked = $(this).prop("checked"),
+        container = $(this).parent(),
+        siblings = container.siblings();
+    container.find('input[type="checkbox"]').prop({
+      indeterminate: false,
+      checked: checked
+    });
+    function checkSiblings(el) {
+      var parent = el.parent().parent(),
+          all = true;
+      el.siblings().each(function() {
+        let returnValue = all = ($(this).children('input[type="checkbox"]').prop("checked") === checked);
+        return returnValue;
+      });
+      if (all && checked) {
+        parent.children('input[type="checkbox"]').prop({
+          indeterminate: false,
+          checked: checked
+        });
+        checkSiblings(parent);
+      } else if (all && !checked) {
+        parent.children('input[type="checkbox"]').prop("checked", checked);
+        parent.children('input[type="checkbox"]').prop("indeterminate", (parent.find('input[type="checkbox"]:checked').length > 0));
+        checkSiblings(parent);
+      } else {
+        el.parents("li").children('input[type="checkbox"]').prop({
+          indeterminate: true,
+          checked: false
+        });
+      }
+    }
+    checkSiblings(container);
+  });
+</script>
